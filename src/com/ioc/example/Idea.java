@@ -1,0 +1,18 @@
+package com.ioc.example;
+
+public class Idea implements I_Sim
+{
+
+	@Override
+	public void Calling() {
+		System.out.println("Calling Via Idea Sim....Free for local ,Rs20 for international");
+		
+	}
+
+	@Override
+	public void Browsing() {
+		System.out.println("Browsing Via Idea , 2GB downlaod speed...");
+		
+	}
+
+}
